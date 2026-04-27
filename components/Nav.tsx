@@ -26,19 +26,8 @@ export default function Nav() {
       }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-3">
-          <div
-            className="relative w-11 h-11 rounded-full flex items-center justify-center"
-            style={{ background: colors.softPink }}
-          >
-            <span className="font-display text-xl relative" style={{ color: colors.blueDeep }}>
-              W
-            </span>
-          </div>
-          <div className="flex flex-col leading-tight">
-            <span className="font-display text-xl tracking-tight">WonderLoom</span>
-            <span className="text-[9px] tracking-[0.2em] uppercase opacity-50">Weaving magical stories</span>
-          </div>
+        <Link href="/" className="flex items-center">
+          <img src="/logo.png" alt="WonderLoom" className="h-12 md:h-14 w-auto" />
         </Link>
 
         <div className="hidden md:flex items-center gap-10 text-sm tracking-wide">

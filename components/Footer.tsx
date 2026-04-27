@@ -12,19 +12,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10 relative">
         <div className="grid md:grid-cols-3 gap-10 mb-10">
           <div>
-            <Link href="/" className="flex items-center gap-3 mb-4">
-              <div
-                className="w-10 h-10 rounded-full flex items-center justify-center"
-                style={{ background: colors.softPink }}
-              >
-                <span className="font-display text-lg" style={{ color: colors.blueDeep }}>
-                  W
-                </span>
-              </div>
-              <div className="flex flex-col leading-tight">
-                <span className="font-display text-xl">WonderLoom</span>
-                <span className="text-[9px] tracking-[0.2em] uppercase opacity-60">Weaving magical stories</span>
-              </div>
+            <Link href="/" className="inline-block mb-4">
+              <img src="/logo.png" alt="WonderLoom" className="h-16 w-auto" />
             </Link>
             <p className="text-sm opacity-70 leading-relaxed max-w-xs">
               Personalised hardcover storybooks where your child is the hero. Handmade in the UAE.
